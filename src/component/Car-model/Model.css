@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.model-container {
+    margin: 5rem auto;
+    width: 80%;
+    align-items: center;
+}
+
+.model-desc {
+    width: 50%;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.vehicle {
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.rental-fleet {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.choose-car {
+    font-size: 1.2rem;
+    opacity: 0.7;
+}
+
+.select-car{
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.box-car {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.fleet-des {
+    width: 15rem;
+    right: 0;
+    position: absolute;
+}
+
+.pick-car {
+    width: 100%;
+}
+
+#btn1 {
+    width: 100%;
+    padding: 0.8rem 0.2rem;
+    margin-bottom: 8px;
+    border-style: none;
+}
+
+#btn1:hover {
+    background-color: #ff4d30;
+    color: #fff;
+}
+
+.rent {
+    font-size: 1.4rem;
+    background-color: #ff4d30;
+    color: #fff;
+    font-weight: 700;
+    /* border: 2px solid black; */
+}
+
+.model {
+    font-size: 1rem;
+    border: 2px solid black;
+    border-bottom: 2px solid #706f7b;
+    border-left: 2px solid #706f7b;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    padding: 0.6rem 0.5rem;
+    text-align: center;
+}
+
+.model-des {
+    border-right: 2px solid black;
+
+}
+
+
+/* ==================================== Media Query =========================== */
+
+@media screen and (max-width:1220px) {
+
+    .model-container{
+        width: 90%;
+    }
+
+    .fleet-des {
+        width: 80%;
+        right: 0;
+        margin: auto;
+        position:relative;
+    }
+}
+
+@media screen and (max-width:1000px) and (min-width:767px) {
+    #btn1{
+        width: 50%;
+    }
+
+    .box-car{
+        grid-template-columns: 2fr 2fr;
+    }
+}
+
+
+@media screen and (max-width:766px) and (min-width:576px) {
+    #btn1{
+        width: 50%;
+    }
+
+    .model-desc{
+        width: 100%;
+    }
+
+    .box-car{
+        grid-template-columns: auto;
+    }
+}
+
+
+@media screen and (max-width:575px) and (min-width:350px) {
+    #btn1{
+        width: 80%;
+    }
+
+    .model-desc{
+        width: 100%;
+    }
+
+    .box-car{
+        grid-template-columns: auto;
+    }
+}

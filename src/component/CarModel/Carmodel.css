@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.car-container{
+    width: 80%;
+    margin: 0 auto 2rem auto;
+   
+}
+
+.car-cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 18px; 
+    column-gap: 15px;
+}
+
+.card{
+    box-shadow: 3px 3px 9px rgba(164,164,186,0.2);
+}
+
+.car-icon{
+    display: grid;
+    grid-template-columns: auto auto;
+    text-align: left;
+}
+
+.car-lease h3 {
+    font-weight: 500;
+}
+
+.model-search{
+    width: auto;
+    padding: 1rem 1rem;
+    box-shadow: 3px 3px 9px rgba(164,164,186,0.5);
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.car-search{
+    padding: 0.2rem 0.2rem;
+    width: 30%;
+    border-right: none;
+    font-size: 0.8rem;
+    border-radius: 10px;
+   
+}
+
+
+
+.model-search .bi-search{
+    padding: 0.15rem 0.4rem;
+    cursor: pointer;
+    border-color: black;
+    position: absolute;
+    left: 31.5%;
+    
+}
+
+.model-search select {
+    border-style: none;
+    margin-left: 1rem;
+}
+
+.car-name{
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.car-icon i {
+    padding: 0.2rem;
+}
+
+.car-icon a{
+    font-size: 0.9rem;
+}
+
+.car-price{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    text-align: left;
+}
+
+.car-rent .bi-heart{
+    background-color: #fff;
+    color: #fa4226;
+    cursor: pointer;
+    padding: 0.4rem;
+}
+
+.car-rent button{
+    background-color: #fa4226;
+    border-style: none;
+    font-size: 0.9rem;
+    color: #fff;
+    padding: 0.2rem 0.3rem;
+    border-radius: 10px;
+}
+
+/* ================Media query ===========================*/
+
+@media screen and (max-width:952px) and (min-width: 767px) {
+    .car-cards{
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width:766px) and (min-width: 600px) {
+    .car-cards{
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width:599px)  {
+    .car-cards{
+        grid-template-columns: auto ;
+    }
+}

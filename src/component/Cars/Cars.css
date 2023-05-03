@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.cars-container{
+    text-align: center;
+}
+
+.Cars-head{
+    background-color: #2d2d2d;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.Cars-head h1 {
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 1.2;
+}
+
+.Cars-head p {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.cars-time{
+    color: #ff4d30;
+}
+
+.Cars{
+    width: 80%;
+    margin: auto;
+}
+
+/* ===================== Media Query ============================ */
+
+@media screen and (max-width:767px) and (min-width: 576px) {
+    .Cars-head h1 {
+        font-size: 3.2rem !important;
+    }
+
+    .Cars-head p {
+        font-size: 1.5rem !important;
+    }
+
+    .Cars{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:775px) and (min-width: 350px) {
+    .Cars-head h1 {
+        font-size: 2.8rem !important;
+    }
+
+    .Cars-head p {
+        font-size: 1.2rem !important;
+    }
+
+    .Cars{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:349px)  {
+    .Cars-head h1 {
+        font-size: 2.5rem !important;
+    }
+
+    .Cars-head p {
+        font-size: 1.1rem !important;
+    }
+
+    .Cars{
+        width: 100%;
+    }
+}

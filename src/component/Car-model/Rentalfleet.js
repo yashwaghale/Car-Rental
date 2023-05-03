@@ -1,0 +1,88 @@
+import A1 from  '../../images/A1.jpg';
+import Benz from '../../images/Benz.jpg';
+import bmw from '../../images/bmw.jpg';
+import camry from '../../images/camry.jpg';
+import gold6 from '../../images/golf6.jpg';
+import passat from '../../images/passat.jpg'
+
+export const  Fleet = [
+{
+    id: 1,
+    Name: 'Audi A1 S-line',
+    img: A1,
+    rent: '$45',
+    model: 'Audi',
+    mark: 'A1',
+    year: '2012',
+    Doors: '4/5',
+    Ac:'Yes',
+    Transmission: 'Manual',
+    Fuel: 'Gasoline',
+},
+{
+    id: 2,
+    Name: 'VW Golf 6',
+    img: gold6,
+    rent: '$37',
+    model: 'Golf 6',
+    mark: 'Volkswagen',
+    year: '2008',
+    Doors: '4/5',
+    Ac:'Yes',
+    Transmission: 'Manual',
+    Fuel: 'Diesel',
+},
+{
+    id: 3,
+    Name: 'Toyota Camry',
+    img: camry,
+    rent: '$30',
+    model: 'camry',
+    mark: 'Toyota',
+    year: '2006',
+    Doors: '4/5',
+    Ac:'Yes',
+    Transmission: 'Automatic',
+    Fuel: 'hybrid',
+},
+{
+    id: 4,
+    Name: 'BMW 320 Modernline',
+    img: bmw,
+    rent: '$35',
+    model: '320',
+    mark: 'BMW',
+    year: '2012',
+    Doors: '4/5',
+    Ac:'Yes',
+    Transmission: 'Manual',
+    Fuel: 'Diesel',
+},
+{
+    id: 5,
+    Name: 'Mercedes-Benz GLK',
+    img: Benz,
+    rent: '$50',
+    model: 'Benz GLK',
+    mark: 'Mercedes',
+    year: '2006',
+    Doors: '4/5',
+    Ac:'Yes',
+    Transmission: 'Manual',
+    Fuel: 'Diesel',
+},
+{
+    id: 6,
+    Name: 'VW Passat CC',
+    img: passat,
+    rent: '$25',
+    model: 'Passat CC',
+    mark: 'Volkswagen',
+    year: '2008',
+    Doors: '4/5',
+    Ac:'Yes',
+    Transmission: 'Automatic',
+    Fuel: 'Gasoline',
+},
+
+]

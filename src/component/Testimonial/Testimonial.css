@@ -1,0 +1,77 @@
+.testimonial-container{
+    text-align: center;
+    margin-top: 4rem;
+    background-color: #F2F6F7;
+    padding: 1rem;
+    
+}
+
+.card-text{
+    font-size: 1.1rem;
+    text-align: left;
+}
+
+.author{
+    width: 6rem !important;
+    height: 6rem !important;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: auto;
+
+}
+
+.test-desc{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.card-body{
+    padding: 1rem;
+}
+
+.test_card{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    height: 28rem;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.card{
+    margin: auto;
+    box-shadow: 0 4px 8 px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none; 
+    text-align: center; 
+}
+
+.t_card:hover{
+    border-bottom: 4px solid #FF5A3C;
+    cursor: pointer;
+}
+
+.author_detail h5{
+    margin: 1rem 0 0 0 ;
+}
+
+.review-desc p{
+    width: 50%;
+    margin: 1.5rem auto ;
+}
+
+.review{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.client{
+    font-weight: 700;
+}

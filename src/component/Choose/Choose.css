@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.choose-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 80%;
+    margin: 2rem auto;
+    align-items: center;
+}
+
+/* .choose-details{
+    display: grid;
+    grid-template-columns: auto auto;
+} */
+
+.choose_us{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.choose-deals{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.find-details{
+    width: 12rem;
+    padding: 12px 0;
+    border-style: none;
+    background-color: #ff4d30;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 4px;
+}
+
+.container-1{
+    text-align: left;
+    line-height: 1.6;
+}
+
+.country-drive{
+    display: flex;
+    float: left;
+    margin-right: 1rem;
+}
+
+
+/* ========================= Media Query =========================== */
+
+@media screen and (max-width:1000px) and (min-width:767px) {
+    .choose-container{
+        display: grid;
+        grid-template-columns:  auto;
+
+    }
+
+    .container-1{
+        max-width: 35rem !important;
+        margin: 2rem auto;
+    }
+}
+
+
+@media screen and (max-width:766px) and (min-width:576px) {
+    .choose-container{
+        display: grid;
+        grid-template-columns:  auto;
+
+    }
+
+    .container-1{
+        /* max-width: 35rem !important; */
+        margin: 2rem auto;
+    }
+}
+
+
+@media screen and (max-width:575px) and (min-width:350px) {
+    .choose-container{
+        display: grid;
+        grid-template-columns:  auto;
+
+    }
+
+    .container-1{
+        /* max-width: 35rem !important; */
+        margin: 2rem auto;
+        text-align: center;
+    }
+
+    .country-drive{
+        float: none;
+        display: inline;
+    }
+}
+
+
+@media screen and (max-width:349px) {
+    .choose-container{
+        display: grid;
+        grid-template-columns:  auto;
+
+    }
+
+    .container-1{
+        /* max-width: 35rem !important; */
+        margin: 2rem auto;
+        text-align: center;
+    }
+
+    .country-drive{
+        float: none;
+        display: inline;
+    }
+}

@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+
+.trip_container{
+    width: 80%;
+    margin: 5rem auto;
+    text-align: center;
+}
+
+.trip-cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    margin-top: 3.7rem;
+}
+
+.trip-lable{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.trip-head{
+    font-weight: 700;
+}
+
+.plan-cards{
+    text-align: center;
+    padding: 1rem 2rem;
+}
+
+
+/* ===================== Media Query ========================= */
+
+@media screen and (max-width: 992px) and (min-width:767px) {
+    .trip-cards{
+        display: grid;
+        grid-template-columns: auto auto ;
+
+    }
+}
+
+
+@media screen and (max-width: 766px) and (min-width:576px) {
+    
+    .trip_container{
+        width: 90%;
+    }
+    
+    .trip-cards{
+        display: grid;
+        grid-template-columns: auto auto ;
+
+    }
+}
+
+
+@media screen and (max-width: 575px) and (min-width:350px) {
+    
+    .trip_container{
+        width: 90%;
+    }
+    
+    .trip-cards{
+        display: grid;
+        grid-template-columns: auto ;
+
+    }
+}
+
+
+@media screen and (max-width: 349px) {
+    
+    .trip_container{
+        width: 90%;
+    }
+    
+    .trip-cards{
+        display: grid;
+        grid-template-columns: auto ;
+
+    }
+}

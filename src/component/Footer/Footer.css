@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-container {
+    text-align: left;
+    padding: 3rem 4rem;
+    background-color: #ececec;
+}
+
+.bi-telephone-fill {
+    color: black;
+}
+
+.footer-container h2 {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.Car-rental p {
+    opacity: 0.7;
+}
+
+.company ul li {
+    list-style: none;
+}
+
+.company ul {
+    padding: 0;
+}
+
+.working-hours ul li {
+    list-style: none;
+}
+
+.working-hours ul {
+    padding: 0;
+}
+
+.footer-mail {
+    width: 100%;
+    padding: 11px 0;
+    margin-bottom: 10px;
+    background-color: #ececec;
+    border-style: none;
+    opacity: 0.8;
+    text-align: center;
+    box-shadow: 0 10px 15px 0 rgba(255, 83, 48, .4);
+}
+
+.footer-submit {
+    width: 100%;
+    padding: 11px 0;
+    background-color: #fa4226;
+    box-shadow: 0 10px 15px 0 rgba(255, 83, 48, .25);
+    border-style: none;
+    color: #fff;
+}
+
+/* ================================ Media Query ============================ */
+
+@media screen and (max-width: 992px) {
+    .footer-container {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .footer-container {
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+        padding: 3rem 1rem;
+        column-gap: 10px;
+        gap: 3rem;
+    }
+
+}

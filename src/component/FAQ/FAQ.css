@@ -1,0 +1,51 @@
+.question_container{
+    width: 80%;
+    margin: auto;
+    padding: 3rem 0;
+}
+
+.Questions{
+    width: 70%;
+    margin: auto;
+}
+
+
+
+.review-desc p{
+    width: 50%;
+    margin: 1.5rem auto ;
+    text-align: center;
+}
+
+.review{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.client{
+    font-weight: 700;
+    text-align: center;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #ff4d30 !important;
+    color: #fff;
+    border-color: #ff4d30;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-color: #ff4d30 !important;
+    color: #fff !important;
+}
+
+/* ===============Media query========================== */
+
+@media screen and (max-width: 650px) {
+    .question_container{
+        width: 100%;
+    }
+
+    .review-desc p{
+        width: 80% !important;
+    }
+}

@@ -1,0 +1,102 @@
+.booking-container{
+    width: 80%;
+    margin: 5rem auto;
+    background-image: url('../../images/book-bg.png');
+    background-color: #fff;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,.1);
+    color: #010103;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 2rem 2.5rem 3rem 3.5rem;
+    position: relative;
+    z-index: 4;
+    /* width: 100%; */
+}
+
+.box-form{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align: left;
+    row-gap: 15px;
+    align-items: end;
+    column-gap: 15px;
+  
+}
+
+.book-head{
+    text-align: left;
+}
+
+.book-label{
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: left;
+}
+
+.book-label b{
+    color: #ff4d30;
+}
+
+.bi-geo-alt-fill{
+    color: #ff4d30;
+}
+
+.bookinput {
+    width: 100%;
+    padding: 10px 5px;
+    opacity: 0.7;  
+}
+
+
+.serch-btn{
+    width: 100%;
+    padding: 12px 0;
+    background-color: #ff4d30;
+    color: #fff;
+    border-style: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+/* ====================Media Query========================= */
+
+
+@media screen and (max-width:1200px) {
+    .bookinput {
+        width: 100%;
+        padding: 10px 5px;
+        opacity: 0.7;
+        
+    }
+
+    .booking-container{
+        padding: 1rem 2rem 1rem 1rem;
+        width: 95%;
+    }
+
+    .serch-btn{
+        width: 100%; 
+    }
+}
+
+@media screen and (max-width:1000px) and (min-width:600px) {
+    .box-form{
+        display: grid;
+        grid-template-columns: auto auto ;
+        
+    }
+
+    
+}
+
+@media screen and (max-width:629px) {
+    .box-form{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}

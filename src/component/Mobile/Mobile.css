@@ -1,0 +1,179 @@
+.App-container{
+    background-image: url('../../images/mobback.png');
+    width: 100%;
+    background-color: #F2F6F7;
+    /* position: absolute; */
+    object-fit: cover;
+}
+
+.app-info{
+    margin: 0 auto!important;
+    width: 133rem!important;
+    padding: 3rem 2.5rem 2rem 7rem !important;
+    text-align: left;
+   
+}
+
+.app-info h1{
+    width: 30rem;
+    font-weight: 700;
+    line-height: 1.5;
+
+}
+
+.app-info p {
+    width: 30rem;
+    opacity: 0.7;
+}
+
+.mobile-img{
+    width: 30rem;
+    align-items: center;
+    background-color: #F2F6F7;
+}
+
+.play-store{
+    height: 11.5rem;
+    cursor: pointer;
+    background-color: #F2F6F7;
+}
+
+.apple-store{
+
+    cursor: pointer;
+    background-color: #F2F6F7;
+}
+
+
+/* =============================== Media query  ============================*/
+
+@media screen and (max-width: 630px) and (min-width: 576px) {
+    .app-info {
+        width: 100% !important;
+        padding: 2rem 5rem !important;
+        text-align: left;
+    }
+
+    .app-info h1{
+        width: auto;
+        font-weight: 700;
+        line-height: 1.5;
+    
+    }
+    
+    .app-info p {
+        width: auto;
+        opacity: 0.7;
+    }
+    
+    .mobile-img{
+        width: auto;
+        align-items: center;
+        background-color: #F2F6F7;
+    }
+}
+
+@media screen and (max-width: 575px) and (min-width: 450px) {
+    .app-info {
+        width: 100% !important;
+        padding: 2rem 5rem !important;
+        text-align: left;
+    }
+
+    .app-info h1{
+        width: auto;
+        font-weight: 700;
+        line-height: 1.5;
+    
+    }
+    
+    .app-info p {
+        width: auto;
+        opacity: 0.7;
+    }
+    
+    .mobile-img{
+        width: auto;
+        align-items: center;
+        background-color: #F2F6F7;
+    }
+
+    .mobile-img{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .play-store{
+        height: 9rem;
+    }
+}
+
+@media screen and (max-width: 449px) and (min-width: 350px) {
+    .app-info {
+        width: 100% !important;
+        padding: 2rem 2rem !important;
+        text-align: left;
+    }
+
+    .app-info h1{
+        width: auto;
+        font-weight: 700;
+        line-height: 1.5;
+    
+    }
+    
+    .app-info p {
+        width: auto;
+        opacity: 0.7;
+    }
+    
+    .mobile-img{
+        width: auto;
+        align-items: center;
+        background-color: #F2F6F7;
+    }
+
+    .mobile-img{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .play-store{
+        height: 8rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .app-info {
+        width: 100% !important;
+        padding: 2rem 2rem !important;
+        text-align: left;
+    }
+
+    .app-info h1{
+        width: auto;
+        font-weight: 700;
+        line-height: 1;
+    
+    }
+    
+    .app-info p {
+        width: auto;
+        opacity: 0.7;
+    }
+    
+    .mobile-img{
+        width: auto;
+        align-items: center;
+        background-color: #F2F6F7;
+    }
+
+    .mobile-img{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .play-store{
+        height: 7rem;
+    }
+}

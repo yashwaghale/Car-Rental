@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.staf-container{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 15px;
+}
+
+.profession{
+    opacity: 0.7;
+}
+
+/* ==============media query =================== */
+
+@media screen and (max-width:1000px) {
+    .staf-container{
+        grid-template-columns: auto auto;
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:620px)  {
+    .staf-container{
+        grid-template-columns:  auto;
+        width: 95%;
+    }
+}
